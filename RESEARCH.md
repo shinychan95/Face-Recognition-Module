@@ -1,8 +1,10 @@
 # 자료조사
--끄적끄적-
+~~끄적끄적~~
 
 
-## 정의
+## 개발 환경
+- open API module: Python
+- App 
 안면 인식 open API를 활용하여, Mobile App에서 앱 인증하는 모듈 개발
 
 ## 기능
@@ -11,3 +13,12 @@
 - 사용에 따른 인식율 개선
 
 # Face Recognition
+- Face Detection
+- Face Identification
+- Face Verification
+- Age Detection
+- Gender Detection
+- Multi-face Detection
+- Facial Coordination
+- Face Grouping
+- Diversity Recognition
