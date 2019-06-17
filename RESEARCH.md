@@ -1,6 +1,6 @@
 # 자료조사
 *안면 인식 open API를 활용하여, Mobile App에서 앱 인증하는 모듈 개발*<br>
-~~끄적끄적~~
+~~이미지를 통해 인식? 카메라 비디오를 통해 인식?~~
 
 ---
 
@@ -8,32 +8,31 @@
   - open API module: **Python**
   - App Server: ???
   - App Client: ???
-
+~~App 개발을 거의 해본 적이 없어서 학습이 많이 필요할 것 같습니다~~
 ---
 
 ### 기능
-  1. **안면 인식을 통한 인증**
-  2. 안면 인식을 통한 회원 관리
-  3. 딥러닝 기술 활용
-  4. 사용에 따른 인식율 개선
+  1. Face Detection
+  2. Face Identification
+  3. Face Verification
+  4. Face Authorization
+  5. 안면 인식을 통한 회원 관리
+  6. 딥러닝 기술 활용
+  7. 사용에 따른 인식율 개선
 
 ---
 
 ### 안면 인식
-- 분야
-  - Face Detection
-  - **Face Identification**
-  - Face Verification
-  - Age Detection
-  - Gender Detection
-  - Multi-face Detection
-  - Facial Coordination
-  - Face Grouping
-  - Diversity Recognition
+- [과정](https://medium.com/devnibbles/facial-recognition-with-android-1-4-5e043c264edc)
+  1. The camera preview surface, so we can see what the camera sees.
+  2. A camera source, to actually grab frames from the hardware camera.
+  3. A detector, this will detect a face in a given frame.
+  4. Classify the face using one of the ML options (future articles)
+ 
   
 - **[대표 API](https://blog.rapidapi.com/top-facial-recognition-apis/)**
   1. **[Kairos](https://www.kairos.com/)**
-    안면 인식 및 감지에 특화된 회사. 안면 인식 관련 광범위한 서비스를 제공.
+    영상이 아닌 이미지의 안면 인식 및 감지에 특화된 회사. 안면 인식 관련 광범위한 서비스를 제공.
   2. Trueface.ai
     some facial recognition APIs is that they are unable to differentiate between a face and a picture of a face. TrueFace.ai solves hat problem
   3. **Amazon Rekognition**
