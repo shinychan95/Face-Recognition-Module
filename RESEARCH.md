@@ -11,6 +11,7 @@
 
 ### 개발 환경???
   - **Tool**: Jetbrains **Webstorm**(JS IDE)
+  
   - **Language**
     - ~~open API module: **Python**~~
     - Android App: **Kotlin**???
@@ -28,9 +29,13 @@
 
 ### 기능
   - Face Detection *(Google Vision Library)*
+  
   - Face Identification *(Google Vision AI 'AutoML Vision')*
+  
   - Authorization by Face
+  
   - Face을 통한 회원 관리
+  
   - 딥러닝 기술 활용(Face detection & Face Identification)
   
   *+a 사용에 따른 인식율 개선*
@@ -79,6 +84,7 @@
 
 ### Module
   - **[Process](https://github.com/apkelly/devnibbles_facial_recognition_with_android)**
+    
     1. The camera preview surface, so we can see what the camera sees.
     
     2. A camera source, to actually grab frames from the hardware camera.
