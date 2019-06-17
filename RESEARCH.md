@@ -72,14 +72,19 @@
 ```kotlin
 class CameraSourcePreview(private val mContext: Context, attrs: AttributeSet) : ViewGroup(mContext, attrs){}
 // 카메라가 보는 장면과 같은 장면을 따로 뽑아낸다.
+
 interface ICameraSource {}
 // 위 CameraSourcePreview 클래스를 여러 라이브러리에서 재사용을 하기 위한 인터페이스
+
 class GVCameraSource(context: Context, detector: Detector<*>) : ICameraSource {}
 // deprecated
+
 class SaveFrameFaceDetector(private val delegateDetector: Detector<Face>) : Detector<Face>() {}
 // detect faces in a camera frame and give us a callback when one is detected.
+
 class GoogleVisionActivity : AbstractActivity() {}
 // provides the missing methods for creating, starting and releasing the camera source. And also creates the face tracker to be used by the camera source to detect faces
+
 class FaceDetector(private val callback: DetectorCallback?) : IFrameProcessor {}
 // +
 ```
@@ -87,12 +92,12 @@ class FaceDetector(private val callback: DetectorCallback?) : IFrameProcessor {}
 ---
 
 ### Milestone
-- Week 1
-- Week 2
-- Week 3
-- Week 4
-- Week 5
-- Week 6
-- Week 7
-- Week 8
+- **Week 1**: 개발 환경 및 언어 설정 & 마일스톤 및 모듈 프로세스 정의 & 관련 자료 조사 *(+a관련 언어 공부)*
+- **Week 2**: 
+- **Week 3**
+- **Week 4**
+- **Week 5**
+- **Week 6**
+- **Week 7**
+- **Week 8**
 
