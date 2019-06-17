@@ -38,7 +38,7 @@
 ---
 
 ### Facial Recognition APIs
-- [특정 사이트 참고](https://blog.rapidapi.com/top-facial-recognition-apis/)
+*[참고](https://blog.rapidapi.com/top-facial-recognition-apis/)*
 
 *조사해보니 이미지에 특화된 API와 영상 및 실시간 Tracking 관련 API 등 다양하게 나뉜다*
   
