@@ -7,8 +7,9 @@
 ### 개발 환경
   - ~~open API module: **Python**~~
   - Antoid App: Kotlin
-  - App Client: ???
+  - App Server/Client: React???<br>
 ~~Kotlin을 배워야 할 것 같은데...~~
+
 ---
 
 ### 기능
@@ -18,7 +19,8 @@
   4. Face Authorization
   5. 안면 인식을 통한 회원 관리
   6. 딥러닝 기술 활용
-  7. 사용에 따른 인식율 개선
+  7. 어르신들 키오스크 자동 안면 인식을 통한 회원가입 및 건강 관리 
+  *+a 사용에 따른 인식율 개선*
 
 ---
 
