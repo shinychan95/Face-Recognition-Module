@@ -79,7 +79,7 @@
 
    10. **IBM Watson Visual Recognition**
     
-*+a 네이버, 카카오 * 
+
  
 ---
 
