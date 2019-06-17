@@ -2,20 +2,26 @@
 ### 
 **안면 인식 open API**를 활용하여, Mobile App에서 **앱 인증**하는 모듈 개발
 
-*+a <br>제품을 사용하는 과정에서 안면 인식을 통한 로그인 및 회원 관리<br>어르신분들이 복잡한 회원가입 없이 키오스크를 통해서 안면 인식으로 로그인하고 건강 상태 체크*
+***+a** <br>제품을 사용하는 과정에서 안면 인식을 통한 로그인 및 회원 관리<br>어르신분들이 복잡한 회원가입 없이 키오스크를 통해서 안면 인식으로 로그인하고 건강 상태 체크*
 
 ~~이미지를 통해 인식? **카메라를 통해 인식**~~
 
 ---
 
-### 개발 환경
-  - Tool: Jetbrains Webstorm(JS IDE)
-  - Language
+### 개발 환경???
+  - **Tool**: Jetbrains **Webstorm**(JS IDE)
+  - **Language**
     - ~~open API module: **Python**~~
-    - Antoid App: Kotlin???
-    - App Server/Client: React??? ~~리액트를 쓰시는 것 같아서~~
+    - Android App: **Kotlin**???
+    - App Server/Client: **React???** ~~리액트를 쓰시는 것 같아서~~
+    
+  - **Team**
+    - Android: Android Native / React
+    - IOS: IOS Native / React
+    - Server: Java, Spring, JPA, graphQL
+    - DB: PostgreSQL, MySQL
 
-~~Kotlin을 배워야 할 것 같은데...예시 코드가 코틀린이라 금방 익혀보겠습니다.~~
+~~Kotlin을 배워야 할지... Navive를 배워야 할지...React를 써본 적은 있는데...익숙하지 않은 건 비슷해서...예시 코드가 또 코틀린이라 고민되는 부분입니다.~~
 
 ---
 
@@ -26,6 +32,7 @@
   4. Face을 통한 회원 관리
   5. 딥러닝 기술 활용(Face detection & Face Identification)
   6. 어르신들 키오스크 자동 안면 인식을 통한 회원가입 및 건강 관리 
+  
   *+a 사용에 따른 인식율 개선*
 
 ---
