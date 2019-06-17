@@ -49,35 +49,34 @@
   
    1. **[Kairos](https://www.kairos.com/)**
    > 영상이 아닌 이미지의 안면 인식 및 감지에 특화된 회사. 안면 인식 관련 광범위한 서비스를 제공.<br>
-  
+
    2. **Trueface.ai**
    > some facial recognition APIs is that they are unable to differentiate between a face and a picture of a face. TrueFace.ai solves hat problem
-    
+
    3. **Amazon Rekognition**
-    
+
    > AWS 환경에 완전히 통합되어 있다. 다른 AWS 제품을 사용하여 쉽게 애플리케이션을 만들 수 있다.
-  
+
    4. **Lambda Labs**
-  
+
    5. **FaceX**
-    
+
    6. **Microsoft Face API**
-    
+
    > 각 API 별로 특화된 기능이 있는데, MS의 경우 비슷한 얼굴에 대한 검색을 할 수 있다. (기본적인 기능은 모두 포함)
-    
+
    7. **Animetrics Face Recognition**
-    
+
    8. **Face++**
-    
+
    9. **[Google Cloud Vision AI](https://cloud.google.com/vision/automl/docs/)**
-    
+
    > 만약 애플리케이션이 구글 클라우드 엔진에서 작동한다면, 모듈을 만들어 통합하기 좋음
-   
+
    > *예시 코드를 찾아본 것이 있어서 그거 기반으로 해도 될지 문의 예정*
-   
+
    > **AutoML Vision의 경우 Face identification에 이용**
-  
-   
+
    10. **IBM Watson Visual Recognition**
     
    *+a 네이버, 카카오 * 
