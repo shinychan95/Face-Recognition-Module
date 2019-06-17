@@ -5,10 +5,10 @@
 ---
 
 ### 개발 환경
-  - open API module: **Python**
-  - App Server: ???
+  - ~~open API module: **Python**~~
+  - Antoid App: Kotlin
   - App Client: ???
-~~App 개발을 거의 해본 적이 없어서 학습이 많이 필요할 것 같습니다~~
+~~Kotlin을 배워야 할 것 같은데...~~
 ---
 
 ### 기능
