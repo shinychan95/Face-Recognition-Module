@@ -38,8 +38,8 @@
 ---
 
 ### Facial Recognition APIs
-- [특정 사이트 참고](https://blog.rapidapi.com/top-facial-recognition-apis/)
-  *조사해보니 이미지에 특화된 API와 영상 및 실시간 Tracking 관련 API 등 다양하게 나뉜다*
+- [특정 사이트 참고](https://blog.rapidapi.com/top-facial-recognition-apis/)<br>
+*조사해보니 이미지에 특화된 API와 영상 및 실시간 Tracking 관련 API 등 다양하게 나뉜다*
   1. **[Kairos](https://www.kairos.com/)**
     영상이 아닌 이미지의 안면 인식 및 감지에 특화된 회사. 안면 인식 관련 광범위한 서비스를 제공.
   2. Trueface.ai
