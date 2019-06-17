@@ -65,8 +65,10 @@
     
    9. **[Google Cloud Vision AI](https://cloud.google.com/vision/automl/docs/)**
     
-   > 만약 애플리케이션이 구글 클라우드 엔진에서 작동한다면, 모듈을 만들어 통합하기 좋음<br>
+   > 만약 애플리케이션이 구글 클라우드 엔진에서 작동한다면, 모듈을 만들어 통합하기 좋음
+   
    > *예시 코드를 찾아본 것이 있어서 그거 기반으로 해도 될지 문의 예정*
+   
    > **AutoML Vision의 경우 Face identification에 이용**
   
    10. **IBM Watson Visual Recognition**
@@ -78,8 +80,11 @@
 ### Module
   - **[Process](https://github.com/apkelly/devnibbles_facial_recognition_with_android)**
     1. The camera preview surface, so we can see what the camera sees.
+    
     2. A camera source, to actually grab frames from the hardware camera.
+    
     3. A detector, this will detect a face in a given frame.
+    
     4. Classify the face using one of the ML(Google AutoML, TensorFlow)
   
   - **Class**
@@ -107,11 +112,19 @@ class FaceDetector(private val callback: DetectorCallback?) : IFrameProcessor {}
 
 ### Milestone
 - **Week 1**: 개발 환경 및 언어 설정 & 마일스톤 및 모듈 프로세스 정의 & 관련 자료 조사 *(+a관련 언어 공부)*
+
 - **Week 2**: 
+
 - **Week 3**
+
 - **Week 4**
+
 - **Week 5**
+
 - **Week 6**
+
 - **Week 7**
+
 - **Week 8**
+
 
