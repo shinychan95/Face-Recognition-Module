@@ -3,7 +3,7 @@
 ~~끄적끄적~~
 
 ### 개발 환경
-- open API module: Python
+- open API module: _Python_
 - App Server: ???
 - App Client: ???
 
