@@ -26,5 +26,20 @@
 6. Facial Coordination
 7. Face Grouping
 8. Diversity Recognition
-#### 대표 API
-1. [Kairos](https://blog.rapidapi.com/top-facial-recognition-apis/)
+#### [대표 API](https://blog.rapidapi.com/top-facial-recognition-apis/)
+1. **[Kairos](https://www.kairos.com/)**
+안면 인식 및 감지에 특화된 회사. 안면 인식 관련 광범위한 서비스를 제공.
+2. Trueface.ai
+some facial recognition APIs is that they are unable to differentiate between a face and a picture of a face. TrueFace.ai solves that problem
+3. **Amazon Rekognition**
+4. Lambda Labs
+5. FaceX
+6. **Microsoft Face API**
+7. Animetrics Face Recognition
+8. Face++
+9. **Google Cloud Vision**
+만약 애플리케이션이 구글 클라우드 엔진에서 작동한다면, 모듈을 만들어 통합하기 좋음
+10. **IBM Watson Visual Recognition**
+*+a 네이버, 카카오* 
+
+
