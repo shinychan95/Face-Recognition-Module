@@ -7,7 +7,8 @@
 ### 개발 환경
   - ~~open API module: **Python**~~
   - Antoid App: Kotlin
-  - App Server/Client: React???<br>
+  - App Server/Client: React???
+
 ~~Kotlin을 배워야 할 것 같은데...~~
 
 ---
