@@ -1,5 +1,6 @@
 # 자료조사
-### 
+
+## 목적
 **안면 인식 open API**를 활용하여, Mobile App에서 **앱 인증**하는 모듈 개발
 
 ***+a** <br>제품을 사용하는 과정에서 안면 인식을 통한 로그인 및 회원 관리<br>어르신분들이 복잡한 회원가입 없이 키오스크를 통해서 안면 인식으로 로그인하고 건강 상태 체크*
@@ -8,7 +9,7 @@
 
 ---
 
-### 개발 환경???
+## 개발 환경???
   - **Tool**: Jetbrains **Webstorm**(JS IDE)
   - **Language**
     - ~~open API module: **Python**~~
@@ -25,13 +26,12 @@
 
 ---
 
-### 기능
-  1. Face Detection *(Google Vision Library)*
-  2. Face Identification *(Google Vision AI 'AutoML Vision')*
-  3. Authorization by Face
-  4. Face을 통한 회원 관리
-  5. 딥러닝 기술 활용(Face detection & Face Identification)
-  6. 어르신들 키오스크 자동 안면 인식을 통한 회원가입 및 건강 관리 
+## 기능
+  - Face Detection *(Google Vision Library)*
+  - Face Identification *(Google Vision AI 'AutoML Vision')*
+  - Authorization by Face
+  - Face을 통한 회원 관리
+  - 딥러닝 기술 활용(Face detection & Face Identification)
   
   *+a 사용에 따른 인식율 개선*
 
