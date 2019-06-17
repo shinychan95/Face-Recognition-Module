@@ -17,10 +17,10 @@
     - App Server/Client: **React???** ~~리액트를 쓰시는 것 같아서~~
     
   - **Team**
-    - Android: Android Native / React
-    - IOS: IOS Native / React
-    - Server: Java, Spring, JPA, graphQL
-    - DB: PostgreSQL, MySQL
+    - **Android**: Android Native / React
+    - **IOS**: IOS Native / React
+    - **Server**: Java, Spring, JPA, graphQL
+    - **DB**: PostgreSQL, MySQL
 
 ~~Kotlin을 배워야 할지... Navive를 배워야 할지...React를 써본 적은 있는데...익숙하지 않은 건 비슷해서...예시 코드가 또 코틀린이라 고민되는 부분입니다.~~
 
