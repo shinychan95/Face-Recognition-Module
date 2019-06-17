@@ -76,9 +76,10 @@
    
    > **AutoML Vision의 경우 Face identification에 이용**
   
+   
    10. **IBM Watson Visual Recognition**
     
-   *+a 네이버, 카카오* 
+   *+a 네이버, 카카오 * 
  
 ---
 
