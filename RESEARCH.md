@@ -3,20 +3,20 @@
 ~~끄적끄적~~
 
 ### 개발 환경
-- open API module: **Python**
-- App Server: ???
-- App Client: ???
+  - open API module: **Python**
+  - App Server: ???
+  - App Client: ???
 
 
 ### 기능
-1. **안면 인식을 통한 인증**
-2. 안면 인식을 통한 회원 관리
-3. 딥러닝 기술 활용
-4. 사용에 따른 인식율 개선
+  1. **안면 인식을 통한 인증**
+  2. 안면 인식을 통한 회원 관리
+  3. 딥러닝 기술 활용
+  4. 사용에 따른 인식율 개선
 
 
 ### 안면 인식
-#### 분야
+  #### 분야
 1. Face Detection
 2. **Face Identification**
 3. Face Verification
