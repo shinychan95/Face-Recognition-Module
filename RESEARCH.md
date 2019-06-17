@@ -1,6 +1,6 @@
 # 자료조사
 
-## 목적
+### 목적
 **안면 인식 open API**를 활용하여, Mobile App에서 **앱 인증**하는 모듈 개발
 
 ***+a** <br>제품을 사용하는 과정에서 안면 인식을 통한 로그인 및 회원 관리<br>어르신분들이 복잡한 회원가입 없이 키오스크를 통해서 안면 인식으로 로그인하고 건강 상태 체크*
@@ -9,7 +9,7 @@
 
 ---
 
-## 개발 환경???
+### 개발 환경???
   - **Tool**: Jetbrains **Webstorm**(JS IDE)
   - **Language**
     - ~~open API module: **Python**~~
@@ -26,7 +26,7 @@
 
 ---
 
-## 기능
+### 기능
   - Face Detection *(Google Vision Library)*
   - Face Identification *(Google Vision AI 'AutoML Vision')*
   - Authorization by Face
@@ -70,7 +70,18 @@
   
   - **Class**
 ```kotlin
-class CameraSourcePreview(private val mContext: Context, attrs: AttributeSet) : ViewGroup(mContext, attrs)
+class CameraSourcePreview(private val mContext: Context, attrs: AttributeSet) : ViewGroup(mContext, attrs){}
+// 카메라가 보는 장면과 같은 장면을 따로 뽑아낸다.
+interface ICameraSource {}
+// 위 CameraSourcePreview 클래스를 여러 라이브러리에서 재사용을 하기 위한 인터페이스
+class GVCameraSource(context: Context, detector: Detector<*>) : ICameraSource {}
+// deprecated
+class SaveFrameFaceDetector(private val delegateDetector: Detector<Face>) : Detector<Face>() {}
+// detect faces in a camera frame and give us a callback when one is detected.
+class GoogleVisionActivity : AbstractActivity() {}
+// provides the missing methods for creating, starting and releasing the camera source. And also creates the face tracker to be used by the camera source to detect faces
+class FaceDetector(private val callback: DetectorCallback?) : IFrameProcessor {}
+// +
 ```
 
 ---
