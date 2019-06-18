@@ -118,7 +118,9 @@ class FaceDetector(private val callback: DetectorCallback?) : IFrameProcessor {}
 ---
 
 ### Milestone
-- **Week 1**: 개발 환경 및 언어 설정 & 마일스톤 및 모듈 프로세스 정의 & 관련 자료 조사 *(+a관련 언어 공부)*
+- **Week 1**
+> 개발 환경 및 언어 설정 & 마일스톤 및 모듈 프로세스 정의 & 관련 자료 조사 *(+a관련 언어 공부)*
+> 도메인 지식 파악 *(원소프트다임 제품 및 방향, 비즈니스 모델, 경쟁사, 기술적 백업, 역할)*  
 
 - **Week 2**: 
 
