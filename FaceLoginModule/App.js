@@ -22,10 +22,8 @@ import Camera from './src/camera/Camera';
 import Login from './view/login/Login'
 import Signup from './view/login/Signup'
 
-// 재범님이 접속하셨습니다.
 
-
-
+// 재범님이 다시 수정을 하셨습니다.
 
 const AppNavigator = createStackNavigator({
     Intro, Swiper, Login, Signup, Camera
