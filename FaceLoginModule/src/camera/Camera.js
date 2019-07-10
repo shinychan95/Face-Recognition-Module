@@ -56,7 +56,7 @@ export default class Camera extends Component {
                     style={StyleSheet.absoluteFill}
                     type={RNCamera.Constants.Type.front}
                     flashMode={RNCamera.Constants.FlashMode.on}
-                    /*
+
                     faceDetectionClassifications={RNCamera.Constants.FaceDetection.Classifications.all}
                     faceDetectionLandmarks={RNCamera.Constants.FaceDetection.Landmarks.all}
                     faceDetectionMode={RNCamera.Constants.FaceDetection.Mode.accurate}
@@ -67,9 +67,11 @@ export default class Camera extends Component {
                     onFacesDetected={face => {
                         if(face.faces.length !== 0){
                             this.setState({ fd: face.faces.length === 0 });
-                            //alert(JSON.stringify(face));
+                            this.takePicture.bind(this);
+                            alert(JSON.stringify(face));
                         }
-                    }}*//>
+                    }}
+                />
 
 
                 <View style={{flex: 0, flexDirection: "row", justifyContent: "center"}}>

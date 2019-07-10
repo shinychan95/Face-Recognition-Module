@@ -18,15 +18,15 @@ import { createStackNavigator, createAppContainer } from 'react-navigation';
 import Intro from './view/intro/Intro';
 import Swiper from './view/intro/Swiper';
 
-import Camera from './src/camera/Camera';
+
 import Login from './view/login/Login'
 import Signup from './view/login/Signup'
+import Camera from './src/camera/Camera';
+import CameraScreen from './src/camera/CameraScreen';
 
-
-// 재범님이 다시 수정을 하셨습니다.
 
 const AppNavigator = createStackNavigator({
-    Intro, Swiper, Login, Signup, Camera
+    Intro, Swiper, Login, Signup, Camera, CameraScreen
 }, {
     initialRouteName: 'Intro',
     defaultNavigationOptions: {
