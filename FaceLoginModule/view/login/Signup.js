@@ -13,7 +13,7 @@ import Logo from '../comp/Logo';
 import Form from '../comp/Form';
 import Button from '../comp/Button';
 import Camera from '../../src/camera/Camera';
-
+import CameraScreen from '../../src/camera/CameraScreen';
 
 export default class Signup extends Component {
 
@@ -31,7 +31,7 @@ export default class Signup extends Component {
                 </View>
                 <Button
                     text="Sign up"
-                    onPress={() => this.props.navigation.navigate("Camera")}
+                    onPress={() => this.props.navigation.navigate("CameraScreen")}
                 />
             </View>
 

@@ -17,18 +17,17 @@ import { RNCamera } from 'react-native-camera'; // 'react-native-camera' 모듈�
 import { createStackNavigator, createAppContainer } from 'react-navigation';    
 import Intro from './view/intro/Intro';     
 import Swiper from './view/intro/Swiper';   
-import Camera from './src/camera/Camera';   
-import Login from './view/login/Login';  
-import Signup from './view/login/Signup';   
+import Login from './view/login/Login'
+import Signup from './view/login/Signup'
+import Camera from './src/camera/Camera';
+import CameraScreen from './src/camera/CameraScreen';
 
-// *** import(가져오기) 문은 외부 모듈이나 다른 스크립트 등으로부터 export(보내기) 된 기능을 가져오는데 사용 ***
 
-
-const AppNavigator = createStackNavigator({     
-    Intro, Swiper, Login, Signup, Camera     
-},  {
-    initialRouteName: 'Intro',      // 메인화면을 import된 'Intro'를 쓴다
-    defaultNavigationOptions: {     // 해더 값은 null
+const AppNavigator = createStackNavigator({
+    Intro, Swiper, Login, Signup, Camera, CameraScreen
+}, {
+    initialRouteName: 'Intro', // 메인화면을 import된 'Intro'를 쓴다
+    defaultNavigationOptions: { // 해더 값은 null
         header: null
     }
 });
