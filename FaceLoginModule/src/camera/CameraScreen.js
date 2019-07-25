@@ -2,6 +2,7 @@ import React from 'react';
 import {StyleSheet, Text, View, TouchableOpacity, Slider, ToastAndroid, CameraRoll} from 'react-native';
 // eslint-disable-next-line import/no-unresolved
 import { RNCamera } from 'react-native-camera';
+import RNFetchBlob from "rn-fetch-blob";
 
 const flashModeOrder = {
     off: 'on',
@@ -94,6 +95,26 @@ export default class CameraScreen extends React.Component {
         if (this.camera) {
             const data = await this.camera.takePictureAsync().then(data => {
                 ToastAndroid.show(data.uri, ToastAndroid.SHORT);
+
+                RNFetchBlob.fetch('POST', 'http://141.223.200.62/Project/upload_image.php', {
+                    Authorization: "Bearer access-token",
+                    otherHeader: "foo",
+                    'Content-Type': 'multipart/form-data',
+                }, [
+                    { name: 'image', filename: 'image.jpg', type: 'image/jpg', data: data.uri },
+                    { name: 'image_tag', data: this.state.Image_TAG }
+                ]).then((resp) => {
+
+                    var tempMSG = resp.data;
+
+                    tempMSG = tempMSG.replace(/^"|"$/g, '');
+
+                    Alert.alert(tempMSG);
+
+                }).catch((err) => {
+                    // ...
+                })
+
                 CameraRoll.saveToCameraRoll(data.uri)
                     .then(console.log('Success', 'Photo added to camera roll!'))
                     .catch(err => console.log('err:', err))
