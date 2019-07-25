@@ -1,0 +1,6 @@
+framework module Pods_MLVisionExample {
+  umbrella header "Pods-MLVisionExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
