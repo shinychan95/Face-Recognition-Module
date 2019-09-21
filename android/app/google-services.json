@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "17576540511",
+    "firebase_url": "https://facelogin-7b06f.firebaseio.com",
+    "project_id": "facelogin-7b06f",
+    "storage_bucket": "facelogin-7b06f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17576540511:android:cc8324efc81747b9",
+        "android_client_info": {
+          "package_name": "com.fl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17576540511-bk3ov0tso820u8bld2vr3or5kap7m0m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD987XW0RjqW5ydDGoKKBwjB1dPxakZ6jQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17576540511-bk3ov0tso820u8bld2vr3or5kap7m0m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
